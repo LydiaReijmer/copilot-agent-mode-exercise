@@ -1,0 +1,87 @@
+
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  color: #222;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%) !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+.navbar-brand span {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.navbar-nav .nav-link.active {
+  color: #ffd700 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  border: none;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #f8f9fa;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.table th {
+  background: #007bff;
+  color: #fff;
+  font-weight: 600;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e3f2fd;
+}
+.table-bordered {
+  border: 2px solid #007bff;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3 0%, #00aaff 100%);
+  color: #fff;
+}
+
+a, .nav-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover, .nav-link:hover {
+  color: #0056b3;
+}
+
+.container {
+  max-width: 900px;
+}
+
+/* Logo styling */
+.navbar-brand img {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+  background: #fff;
+  border-radius: 50%;
+  padding: 2px;
+}
